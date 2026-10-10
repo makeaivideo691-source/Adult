@@ -1,0 +1,179 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#100914">
+<script src="https://pl31765110.profitableratecpmnetwork.com/cd/31/fe/cd31fe11b513d12c74103d73b9c46fb0.js"></script>
+<title>VelvetNight | 18+ Adults Only</title>
+
+<style>
+*{box-sizing:border-box}
+
+body{
+  margin:0;
+  min-height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  padding:22px;
+  font-family:Arial,Helvetica,sans-serif;
+  color:#fff;
+  background:
+    radial-gradient(ellipse at 15% 15%,#552267 0,transparent 45%),
+    radial-gradient(ellipse at 85% 85%,#66133e 0,transparent 42%),
+    #100914;
+}
+
+.card{
+  width:100%;
+  max-width:500px;
+  padding:38px 27px;
+  text-align:center;
+  background:#1d1125;
+  border:1px solid #69376f;
+  border-radius:25px;
+  box-shadow:0 20px 70px #0009;
+}
+
+.logo{
+  width:76px;
+  height:76px;
+  margin:0 auto 22px;
+  display:grid;
+  place-items:center;
+  border-radius:23px;
+  background:linear-gradient(135deg,#f044a4,#9147ff);
+  font-size:36px;
+}
+
+.tag{
+  color:#ff9ed4;
+  letter-spacing:4px;
+  font-size:12px;
+  font-weight:bold;
+}
+
+h1{
+  font-size:clamp(38px,9vw,53px);
+  margin:15px 0;
+}
+
+h1 span{color:#f57bc3}
+
+p{
+  color:#d0bfd7;
+  line-height:1.8;
+  font-size:15px;
+}
+
+.badge{
+  display:inline-block;
+  padding:10px 18px;
+  margin:14px 0;
+  border:1px solid #a34e86;
+  border-radius:30px;
+  color:#ffd2eb;
+  font-size:13px;
+  font-weight:bold;
+}
+
+label{
+  display:flex;
+  align-items:flex-start;
+  gap:10px;
+  margin:20px 0;
+  text-align:left;
+  color:#d8c8df;
+  font-size:13px;
+  line-height:1.7;
+}
+
+input{
+  margin-top:4px;
+  accent-color:#f044a4;
+}
+
+button{
+  width:100%;
+  padding:17px;
+  border:0;
+  border-radius:13px;
+  color:white;
+  background:linear-gradient(100deg,#ed399d,#9147ff);
+  font-size:17px;
+  font-weight:bold;
+  cursor:pointer;
+}
+
+button:hover{filter:brightness(1.12)}
+
+.note{font-size:12px}
+
+footer{
+  margin-top:25px;
+  color:#95839e;
+  font-size:11px;
+}
+</style>
+</head>
+
+<body>
+<main class="card">
+
+  <div class="logo" aria-hidden="true">&#10022;</div>
+
+  <div class="tag">WELCOME TO</div>
+
+  <h1>Velvet<span>Night</span></h1>
+
+  <p>
+    Welcome to VelvetNight.
+    Please confirm your age before continuing.
+  </p>
+
+  <div class="badge">&#128286; 18+ ADULTS ONLY</div>
+
+  <label>
+    <input type="checkbox" id="ageCheck">
+    <span>
+      I confirm that I am at least 18 years old
+      or the legal age required in my location.
+    </span>
+  </label>
+
+  <button id="continueButton" type="button">
+    Continue &rarr;
+  </button>
+
+  <p class="note">
+    Access only where permitted by applicable law.
+  </p>
+
+  <footer>
+    &copy; <span id="year"></span> VelvetNight
+  </footer>
+
+</main>
+
+<script>
+const SMARTLINK =
+"https://www.profitableratecpmnetwork.com/fniahxt2gj?key=9642617b49440adf3289fe6ae0787784";
+
+document.getElementById("year").textContent =
+  new Date().getFullYear();
+
+document.getElementById("continueButton")
+.addEventListener("click", function () {
+
+  if (!document.getElementById("ageCheck").checked) {
+    alert("Please confirm that you are 18 or older.");
+    return;
+  }
+
+  window.location.href = SMARTLINK;
+});
+</script>
+</body>
+</html>
